@@ -90,41 +90,20 @@ tr, th, td{
 /* Button styling */
 .telegram-button {
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
   padding: 15px 30px;
   font-size: 16px;
   background-color: #0088cc; /* Telegram's brand color */
-  color: #fff;
+  color: white;
   text-decoration: none;
   border-radius: 5px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  overflow: hidden;
 }
 
-/* Button text */
-.button-text {
-  z-index: 1;
-}
-
-/* GIF pointer */
-.gif-pointer {
-  position: absolute;
-  top: 50%;
-  left: 100%;
-  transform: translate(-50%, -50%);
-  width: 30px; /* Adjust the width of the pointer GIF as needed */
-  height: auto;
-}
-
-/* Hover effect */
 .telegram-button:hover {
   background-color: #0066aa; /* Darker shade on hover */
 }
-
 
 .navbar1 ul li a {
   text-decoration: none;
